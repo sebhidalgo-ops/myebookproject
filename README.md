@@ -1,23 +1,23 @@
 # myebookproject
 I deployed an ebook 
 
+# myebookproject.com – Live AWS Static Site
 
-myebookproject.com/
-│
-├── index.html                  ← YOUR MAIN PAGE
-├── css/
-│   ├── bootstrap.min.css
-│   ├── templatemo.css
-│   └── style.css
-├── js/
-│   ├── bootstrap.bundle.min.js
-│   └── templatemo.js
-├── img/                        ← ALL IMAGES
-│   ├── banner-bg.jpg
-│   ├── ebook-cover.jpg
-│   └── ... (all others)
-├── fonts/                      ← IF YOU HAVE ANY
-├── favicon.ico                 ← OPTIONAL BUT GOOD
-├── README.md                   ← GOD-TIER ONE BELOW
-├── .gitignore                  ← HIDE SECRETS
-└── screenshot.png              ← FULL PAGE OF LIVE SITE
+> **Live URL**: [https://myebookproject.com](https://myebookproject.com)  
+> **Source**: [github.com/sebhidalgo-ops/myebookproject](https://github.com/sebhidalgo-ops/myebookproject)  
+> **Global Load Time**: **< 150ms** (Tokyo → NYC)  
+> **Cost**: **~$0.50/month**  
+> **Deployed**: **< 1 hour**
+
+---
+
+## What This Proves
+- **S3** → Static website hosting
+- **CloudFront** → Global CDN with edge caching
+- **Route 53** → Custom domain DNS
+- **ACM** → Free SSL/TLS certificate
+- **Responsive Design** → Bootstrap 5
+
+---
+
+## Architecture
